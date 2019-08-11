@@ -19,12 +19,12 @@ async def on_ready():
         flash_role = None
 
         for server in client.servers:
-            if server.id == "369144280863997962":
+            if server.id == "603260982151872513":
                 flash_server = server
                 break
 
         for role in flash_server.roles:
-            if role.id == "377268081728159744":
+            if role.id == "608214470015057921":
                 flash_role = role
                 break
 
@@ -38,4 +38,4 @@ async def on_ready():
             await client.edit_role(flash_server, flash_role, colour=colours[colour_index])
             print(colour_index)
 
-client.run(bot_token)
+client.run(NjA5ODM1NzczNTQxMjIwMzUy.XU-8KA.Nq-_u6-olZ4C-ebZIkIplfZNFpI)
